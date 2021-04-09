@@ -1,0 +1,35 @@
+:root {
+  --main-color: #fe5f55;
+  --sec-color: #495867;
+  --sec2-color: #577399;
+  --sec3-color: #bdd5ea;
+  --sec4-color: #f7f7ff;
+  overflow-x: hidden;
+}
+@import "../sass/plugin/normlize";
+@import "../sass/plugin/font";
+@import "../sass/plugin/icon";
+
+header {
+  @import "../sass/page/header-page";
+}
+
+.landing-page {
+  @import "../sass/page/landing-page";
+}
+
+.about-page {
+  @import "../sass/page/about-page";
+}
+
+.download-page {
+  @import "../sass/page/download-page";
+}
+
+.power-page {
+  @import "../sass/page/power-page";
+}
+
+.feature-page {
+  @import "../sass/page/feature-page";
+}

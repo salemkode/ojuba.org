@@ -1,0 +1,10 @@
+.icon{
+    &.icon-iso:before {
+        font-family: 'icon';
+        font-style: normal;
+        content: "\e900";
+    }
+    &.icon-x2{
+        font-size: 32px;
+    }
+}

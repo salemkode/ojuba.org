@@ -1,0 +1,16 @@
+& {
+  .flex {
+    padding: 5px 10px;
+    text-align: center;
+    .item:not(:last-child):not(:first-child) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    & > .flex{
+        flex-direction: column;
+    }
+}
